@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Neal Dyxther Centino</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/b068262b7e.js" crossorigin="anonymous"></script>
+    <!--Animate on Scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="landing-container">
+        <nav class="navbar navbar-expand-lg px-5 pt-4">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span class="nav-logo"><span class="text-danger">&lt;</span><span class="text-warning">StartUp</span><span class="text-danger">/&gt;</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse ps-2" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link me-4" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link me-4" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle me-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+                        Projects
+                      </a>
+                      <div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-dark" href="#">Exostellar</a>
+                        <a class="dropdown-item text-dark" href="#">StartUp</a>
+                        <a class="dropdown-item text-dark" href="#">Shappy</a>
+                      </div>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 ms-3" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+                </div>
+            </div>
+          </nav>
+        <!-- Heading -->
+        <div class="heading container">
+          <div class="row">
+            <div class="heading-content container col-lg-5 col-xl-6 mt-5">
+              <h1 class="heading-main-text">Welcome!</h1>
+              <h1 class="heading-main-text">I am <span class="text-danger">Neal Centino</span></h1>
+              <h1 class="heading-main-text-last">I am a <span class="auto-type text-warning"></span></h1>
+  
+              <button type="button" class="abtme-btn btn btn-danger btn-rounded mt-4" style="height: 45px; width:150px; border-radius: 25px; transition: 0.8s;">About Me <i class="fa-solid fa-star ps-1" style="font-size: 15px;"></i></button>
+  
+              <hr>
+              <div class="socmed mt-5">
+                  <div class="socmed-icons d-inline-flex justify-content-center align-items-center bg-warning">
+                      <a href="https://www.facebook.com/neal.ackerman12" class="text-dark"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="socmed-icons ms-1 d-inline-flex justify-content-center align-items-center bg-warning">
+                      <a href="https://www.instagram.com/itsmenealdyxther/" class="text-dark"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                  <div class="socmed-icons ms-1 d-inline-flex justify-content-center align-items-center bg-warning">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                  <div class="socmed-icons ms-1 d-inline-flex justify-content-center align-items-center bg-warning">
+                      <a href = "mailto: nmcsquareal@gmail.com" class="text-dark"><i class="fa-regular fa-envelope"></i></a>
+                  </div>
+              </div>
+            </div>
+            <div class="heading-content-img col-lg-7 col-xl-6 mt-5 d-flex justify-content-center"> 
+              <img src="\Images\profilepic.jpg" style="width: 400px;" class="rounded-circle border border-5 border-light">
+            </div>
+          </div> 
+        </div>    
+    </div>
+
+    <!-- Quotation -->
+    <div class="quotation text-white py-5">
+      <div class="container quoation-content d-flex flex-column align-items-center py-3" data-aos="zoom-in">
+        <img src="\Images\motivation-white.png" style="width: 150px;" class="py-2">
+        <p class="text-center">...Dream big, work hard, and ENJOY THE JOURNEY...</p>
+      </div>
+    </div>
+
+    <!--Sample Project (ExoStellar)-->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <video class="d-block w-100" playsinline autoplay muted loop>
+            <source src="Projects/exostellar.webm" type="video/webm">
+          </video>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-6">ExoStellar</h1>
+          <p>This is an Astronomy website that mainly uses HTML, CSS and Bootstrap as its front end technology.
+            It also utilizes different API such as Open APIs from NASA API Portal.
+          </p>
+          <p>
+            The main idea of ExoStellar is for it to be used as an additional educational resource for studying Astronomy. 
+            This is going to be helpful for students or any people interested in Science and Astronomy.
+          </p>
+          <p>
+            Link: 
+            <a class="text-danger" href="https://exostellar.000webhostapp.com/?fbclid=IwAR2ZkRS3o41DlIkmNw2Vasbde9ixWDdMpkb095L6A71ftuKHXvvtm0od0NM">
+              ExoStellar
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mt-5">
+          <h1 class="display-6">StartUp</h1>
+          <p>Start Up is an educational resource website for studying the basic of front end web development, particularly
+            the HyperText Markup Protocol (HTML). The content was divided into seven (7) topics - Getting Started, Texts,
+            Lists, Images, Links, Table and Forms.
+          </p>
+          <p>
+            Link: <a class="text-danger" href="https://nmcsquareal.github.io/StartUp.github.io/">StartUp</a>
+          </p>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <img src="Projects/startup.png" class="d-block w-100" style="height: auto;">
+        </div>
+      </div>
+    </div>
+      
+    <!--Footer-->
+    <footer>
+
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      var typed = new Typed(".auto-type", {
+          strings: ["Web Developer", "Web Designer", "Full Stack Developer"],
+          typeSpeed: 60,
+          backSpeed: 25,
+          loop: true
+      })
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2500
+      });
+    </script>
+</body>
+</html>
