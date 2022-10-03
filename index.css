@@ -54,8 +54,6 @@
     transform: translateY(-8px);
 }
 
-
-
 @media only screen and (max-width: 992px){
     .heading-content{
         order: 2;
@@ -76,4 +74,26 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 3.2rem;
     line-height: 60px;
+}
+
+/* About Me */
+#about-me-container{
+    margin: 100px auto;
+}
+
+.about-me{
+    font-size: 55px;
+}
+
+.mypic-container{
+    height: 400px;
+    border: 10px solid #df4759;
+    border-radius: 125px;
+}
+
+/* Footer */
+
+.personal-details{
+    line-height: 8px;
+    padding-left: 3px;
 }

@@ -24,7 +24,8 @@
         <nav class="navbar navbar-expand-lg px-5 pt-4">
             <div class="container">
                 <a class="navbar-brand" href="#"><span class="nav-logo"><span class="text-danger">&lt;</span><span class="text-warning">StartUp</span><span class="text-danger">/&gt;</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <button class="navbar-toggler navbar-dark bg-dark " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
@@ -34,16 +35,16 @@
                       <a class="nav-link me-4" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link me-4" href="#">About Me</a>
+                      <a class="nav-link me-4" href="#about-me-container">About Me</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle me-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+                      <a class="nav-link dropdown-toggle me-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Projects
                       </a>
                       <div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item text-dark" href="#">Exostellar</a>
-                        <a class="dropdown-item text-dark" href="#">StartUp</a>
-                        <a class="dropdown-item text-dark" href="#">Shappy</a>
+                        <a class="dropdown-item text-dark" href="https://exostellar.tk" target="_blank">Exostellar</a>
+                        <a class="dropdown-item text-dark" href="https://nmcsquareal.github.io/StartUp.github.io/" target="_blank">StartUp</a>
+                        <a class="dropdown-item text-dark" href="https://github.com/nmcsquareal/shappy.github.io" target="_blank">Shappy</a>
                       </div>
                     </li>
                   </ul>
@@ -61,12 +62,15 @@
               <h1 class="heading-main-text">I am <span class="text-danger">Neal Centino</span></h1>
               <h1 class="heading-main-text-last">I am a <span class="auto-type text-warning"></span></h1>
   
-              <button type="button" class="abtme-btn btn btn-danger btn-rounded mt-4" style="height: 45px; width:150px; border-radius: 25px; transition: 0.8s;">About Me <i class="fa-solid fa-star ps-1" style="font-size: 15px;"></i></button>
+              <a type="button" class="abtme-btn btn btn-danger btn-rounded mt-4 pt-2" href="#about-me-container" style="height: 45px; width:150px; border-radius: 25px; transition: 0.8s;">About Me <i class="fa-solid fa-star ps-1" style="font-size: 15px;"></i></a>
   
               <hr>
               <div class="socmed mt-5">
                   <div class="socmed-icons d-inline-flex justify-content-center align-items-center bg-warning">
                       <a href="https://www.facebook.com/neal.ackerman12" class="text-dark"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+                  <div class="socmed-icons ms-1 d-inline-flex justify-content-center align-items-center bg-warning">
+                    <a href = "mailto: nmcsquareal@gmail.com" class="text-dark"><i class="fab fa-google"></i></a>
                   </div>
                   <div class="socmed-icons ms-1 d-inline-flex justify-content-center align-items-center bg-warning">
                       <a href="https://www.instagram.com/itsmenealdyxther/" class="text-dark"><i class="fa-brands fa-instagram"></i></a>
@@ -75,15 +79,80 @@
                       <i class="fa-brands fa-linkedin-in"></i>
                   </div>
                   <div class="socmed-icons ms-1 d-inline-flex justify-content-center align-items-center bg-warning">
-                      <a href = "mailto: nmcsquareal@gmail.com" class="text-dark"><i class="fa-regular fa-envelope"></i></a>
-                  </div>
+                    <a href="https://github.com/nmcsquareal" class="text-dark"><i class="fab fa-github"></i></a>
+                </div>
               </div>
             </div>
-            <div class="heading-content-img col-lg-7 col-xl-6 mt-5 d-flex justify-content-center"> 
-              <img src="\Images\profilepic.jpg" style="width: 400px;" class="rounded-circle border border-5 border-light">
+            <div class="heading-content-img col-lg-7 col-xl-6 mt-5 d-flex justify-content-center">
+              <div class="profile-pic">
+                <img src="\Images\profilepic.jpg" style="width: 400px;" class="rounded-circle border border-5 border-light">
+              </div>
             </div>
           </div> 
         </div>    
+    </div>
+
+    <!--Sample Projects-->
+    <div class="container projects-container my-5">
+      <h1 class="display-1 text-center my-5">Sample Projects</h1>
+      <div class="row" data-aos="fade-left" data-aos-duration="2800">
+        <div class="col-lg-6">
+          <video class="d-block w-100" playsinline autoplay muted loop>
+            <source src="Projects/exostellar.webm" type="video/webm">
+          </video>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-6 mt-1">ExoStellar</h1>
+          <p>This is an Astronomy website that mainly uses HTML, CSS and Bootstrap as its front end technology.
+            It also utilizes different API such as Open APIs from NASA API Portal.
+          </p>
+          <p>
+            The main idea of ExoStellar is for it to be used as an additional educational resource for studying Astronomy. 
+            This is going to be helpful for students or any people interested in Science and Astronomy.
+          </p>
+          <p>
+            Link: 
+            <a class="text-danger" href="https://exostellar.tk" target="_blank">
+              ExoStellar
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="row mt-5" data-aos="fade-right" data-aos-duration="2800">
+        <div class="col-lg-6 order-lg-1 order-2 mt-3">
+          <h1 class="display-6 mt-1">StartUp</h1>
+          <p>StartUp is an educational resource website for studying the basic of front end web development, particularly
+            the HyperText Markup Protocol (HTML). The content was divided into seven (7) topics - Getting Started, Texts,
+            Lists, Images, Links, Table and Forms.
+          </p>
+          <p>
+            Link: <a class="text-danger" href="https://nmcsquareal.github.io/StartUp.github.io/" target="_blank">StartUp</a>
+          </p>
+        </div>
+        <div class="col-lg-6 order-lg-1 order-1 mt-3">
+          <img src="Projects/startup.png" class="d-block w-100" style="height: auto;">
+        </div>
+      </div>
+      <div class="row mt-5" data-aos="fade-left" data-aos-duration="2800">
+        <div class="col-lg-6 mt-3">
+          <img src="Projects/shappy2.png" class="d-block w-100" style="height: auto;">
+        </div>
+        <div class="col-lg-6 mt-3">
+          <h1 class="display-6 mt-2">Shappy</h1>
+          <p>This is a two way e-commerce website where the admin can sell something and users can buy it. It has functionalities such as
+            a Log-in and Sign-Up page, Products Section, Add to Cart, Order Section and Purchase.
+          </p>
+          <p>
+            It was named Shappy to emphasize that this is an e-commerce website that mainly focuses on customers' satisfaction and happiness.
+          </p>
+          <p>
+            Link: 
+            <a class="text-danger" href="https://github.com/nmcsquareal/shappy.github.io" target="_blank">
+              Shappy
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- Quotation -->
@@ -94,76 +163,116 @@
       </div>
     </div>
 
-    <!--Sample Project (ExoStellar)-->
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-lg-6">
-          <video class="d-block w-100" playsinline autoplay muted loop>
-            <source src="Projects/exostellar.webm" type="video/webm">
-          </video>
+    <!--About Me-->
+      <div id="about-me-container" class="container">
+        <div class="row">
+          <div class="col-lg-6 order-lg-1 order-2">
+            <h1 class="about-me mb-4 text-center text-lg-start">about me . . . </h1>
+            <hr>
+            <p class="text-danger mt-4">I Neal Dyxther G. Centino a Full Stack Web Developer from Bulacan, Philippines</p>
+            <p>I enjoy building websites as well as solving simple to complex problems by creating web applications. I have multiple
+              projects that I have already built such as ExoStellar, StartUp and Shappy. You can learn more about this website
+              in this portfolio website as well.
+            </p>
+            <p>
+              I am a graduate of BS Education in Physical Sciences under the Dr. Pio Valenzuela Scholarship program. I graduated 
+              with Latin Honors (Cum Laude) and has been a Dean's Lister all throughout my college life. After graduation, I became
+              a senior high school physics and research instructor from a local university.
+            </p>
+          </div>
+          <div class="col-lg-6 order-lg-2 order-1 d-flex justify-content-center mt-4 mb-4">
+            <div class="mypic-container">
+              <img src="Images/mypic.jpg" style="width: 380px; border-radius: 125px;" class="mypic circle border border-5 border-light">
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6">
-          <h1 class="display-6">ExoStellar</h1>
-          <p>This is an Astronomy website that mainly uses HTML, CSS and Bootstrap as its front end technology.
-            It also utilizes different API such as Open APIs from NASA API Portal.
-          </p>
-          <p>
-            The main idea of ExoStellar is for it to be used as an additional educational resource for studying Astronomy. 
-            This is going to be helpful for students or any people interested in Science and Astronomy.
-          </p>
-          <p>
-            Link: 
-            <a class="text-danger" href="https://exostellar.000webhostapp.com/?fbclid=IwAR2ZkRS3o41DlIkmNw2Vasbde9ixWDdMpkb095L6A71ftuKHXvvtm0od0NM">
-              ExoStellar
-            </a>
-          </p>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-lg-6 mt-3">
-          <h1 class="display-6">StartUp</h1>
-          <p>Start Up is an educational resource website for studying the basic of front end web development, particularly
-            the HyperText Markup Protocol (HTML). The content was divided into seven (7) topics - Getting Started, Texts,
-            Lists, Images, Links, Table and Forms.
-          </p>
-          <p>
-            Link: <a class="text-danger" href="https://nmcsquareal.github.io/StartUp.github.io/">StartUp</a>
-          </p>
-        </div>
-        <div class="col-lg-6 mt-3">
-          <img src="Projects/startup.png" class="d-block w-100" style="height: auto;">
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-lg-6 mt-3">
-          <img src="Projects/shappy2.png" class="d-block w-100" style="height: auto;">
-        </div>
-        <div class="col-lg-6 mt-3">
-          <h1 class="display-6">Shappy</h1>
-          <p>This is a two way e-commerce website where the admin can sell something and users can buy it. It has functionalities such as
-            a Log-in and Sign-Up page, Products Section, Add to Cart, Order Section and Purchase.
-          </p>
-          <p>
-            It was named Shappy to emphasize that this is an e-commerce website that mainly focuses on customers' satisfaction and happiness.
-          </p>
-          <p>
-            Link: 
-            <a class="text-danger" href="https://exostellar.000webhostapp.com/?fbclid=IwAR2ZkRS3o41DlIkmNw2Vasbde9ixWDdMpkb095L6A71ftuKHXvvtm0od0NM">
-              ExoStellar
-            </a>
+        <div>
+          <p>I proceeded to take the KodeGo Full Stack Web Development Bootcamp to learn skills in Web Development.
+            I was able to learn different front end and back end web development technologies such as (but not limited to)
+            HTML, CSS, Javascript, PHP and Laravel. I was also able to create solo and collaborative projects.
           </p>
         </div>
       </div>
-    </div>
-      
     <!--Footer-->
-    <footer>
+    <div class="mt-5">
+      <!-- Footer -->
+      <footer class="text-center text-lg-start text-white" style="background-color: #3e4551">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-between align-items-center">
+              <!--Grid column-->
+              <div class="col-md-9">
+                <h5 class="text-uppercase display-5 mb-4">Get in touch . . .</h5>
+                <section class="personal-details">
+                  <p>
+                    Address: Guiguinto, Bulacan, Central Luzon
+                  </p>
+                  <p>
+                    Phone Number: 0950 873 6892
+                  </p>
+                  <p>
+                    E-mail: nmcsquareal@gmail.com
+                  </p>
+                </section>
 
-    </footer>
+              </div>
+
+              <!--Grid column-->
+              <div class="col-md-3">
+                <h5 class="text-uppercase">Project Links</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="https://exostellar.tk/" class="text-white" target="_blank">ExoStellar</a>
+                  </li>
+                  <li>
+                    <a href="https://nmcsquareal.github.io/StartUp.github.io/" class="text-white" target="_blank">StartUp</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/nmcsquareal/shappy.github.io" class="text-white" target="_blank">Shappy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--Grid row-->
+
+          <hr class="mb-4" />
+
+          <!-- Section: Social media -->
+          <section class="mb-4 text-center">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/neal.ackerman12" role="button"><i class="fab fa-facebook-f"></i></a>
+
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="mailto: nmcsquareal@gmail.com" role="button"><i class="fab fa-google"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/itsmenealdyxther/" role="button"><i class="fab fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/nmcsquareal" role="button"><i class="fab fa-github"></i></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          Neal Dyxther G. Centino - Full Stack Web Developer
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script> 
 
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
