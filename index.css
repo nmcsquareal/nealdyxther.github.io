@@ -63,6 +63,11 @@
     }
 }
 
+/* Projects Container */
+.projects-container{
+    background-color: #F9F9F9;
+}
+
 /* Quotation */
 
 .quotation{
@@ -78,7 +83,7 @@
 
 /* About Me */
 #about-me-container{
-    margin: 100px auto;
+    background-color: #fff4fb;
 }
 
 .about-me{
