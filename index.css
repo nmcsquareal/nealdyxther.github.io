@@ -50,7 +50,7 @@
     font-size: 19px;
 }
 
-.socmed-icons:hover, .abtme-btn:hover{
+.socmed-icons:hover, .hover-btn:hover{
     transform: translateY(-8px);
 }
 
